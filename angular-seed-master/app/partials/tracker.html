@@ -1,0 +1,11 @@
+<div class="row">
+        <h2><i class="icon-rotate icon-flipped glyphicon glyphicon-cutlery grey"></i>Reviews<i class="glyphicon glyphicon-cutlery grey"></i></h2>
+        <ul>
+        <li class="well pinkWell" ng-repeat="review in totalReviews">
+           <h1>{{review.name}}: {{review.dessert }} </h1>
+           </hr>
+           <p>{{review.date | date}} </p>
+           <p>Impressions: {{review.review}} </p>
+        </li>
+        </ul>
+</div>

@@ -1,0 +1,11 @@
+<form role="form">
+    <div class="form-group">
+        <label for="usernameInput">User Name:</label>
+        <input type="text" class="form-control" id="usernameInput" ng-model="inputName" required placeholder="Enter username"/>
+    </div>
+    <div class="form-group">
+        <label for="passwordInput">Password:</label>
+        <input type="password" class="form-control" id="passwordInput"  ng-model="inputPassword" required placeholder="Enter password"/>
+    </div>
+    <button type="submit" class="btn btn-default" ng-click="validate()">Login</button>
+</form>

@@ -1,0 +1,72 @@
+/* app css stylesheet */
+@font-face
+{
+    font-family: yummyFont;
+    src: url(fonts/pwyummydonuts/PWYummyDonuts.ttf);
+}
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+/*Additional customization*/
+.container{
+    background-color: #DEFCF3;
+}
+#banner{
+    font-family: 'yummyFont', sans-serif;
+    color: darkblue;
+    
+}
+h1, h3, h2{
+font-family: Palatino, serif;
+}
+li {
+    list-style-type: none;
+}
+.grey, .grey a {
+    color: darkslategray;
+    font-size: xx-large;
+
+}
+.icon-flipped {
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+}
+.pinkWell{
+    background-color: #E7E7E7;
+    border: solid hotpink;
+}
+.imageClip{
+    width:300px;
+    height:175px;
+    overflow:hidden;
+}
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
