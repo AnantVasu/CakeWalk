@@ -13,6 +13,9 @@ The seed app doesn't do much, just shows how to wire two controllers and views t
 ## Getting Started
 
 To get you started you can simply clone the angular-seed repository and install the dependencies:
+* We get the tools we depend upon via `npm`, the [node package manager][npm].
+* We get the angular code via `bower`, a [client-side code package manager][bower].
+ See Below to know how to install these dependencies.
 
 ### Prerequisites
 
